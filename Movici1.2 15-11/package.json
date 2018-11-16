@@ -1,0 +1,25 @@
+{
+  "name": "Movici",
+  "version": "1.0.0",
+  "description": "Proyecto diseño de software",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alvarado,Godoy,Hermosilla,Sanhueza",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^3.0.2",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "google-auth-library": "^2.0.1",
+    "hbs": "^4.0.1",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.3.11",
+    "mongoose-unique-validator": "^2.0.2",
+    "multer": "^1.4.1",
+    "underscore": "^1.9.1"
+  },
+  "devDependencies": {}
+}
